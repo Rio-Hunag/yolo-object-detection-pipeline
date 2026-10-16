@@ -1,14 +1,16 @@
-# YOLO Object Detection & Training Pipeline
+YOLOv8 Object Detection & Training Pipeline
 
-An end-to-end machine learning workflow for custom object detection model training, evaluation, and inference using PyTorch and Ultralytics YOLOv8.
+An end-to-end workflow for training, evaluating, and running custom YOLOv8 object detection models using PyTorch and Ultralytics.
 
-## 🚀 Key Features
-- **End-to-End Pipeline**: Workflow covering data preprocessing, dataset configuration, model fine-tuning, and model evaluation.
-- **Model Training**: Trained YOLOv8 object detection backbone (`yolov8l.pt`) on custom labeled datasets.
-- **Performance Evaluation**: Analyzed detection performance using standard metrics including Precision, Recall, mAP@0.5, and Confusion Matrices.
+Features
 
-## 🛠️ Installation & Setup
+End-to-End Workflow: Covers data preprocessing, dataset setup, model fine-tuning, and performance evaluation.
 
-```bash
-# Install required libraries
+Model Training: Fine-tuned YOLOv8 (using yolov8l.pt as base) on custom labeled datasets.
+
+Evaluation: Evaluated performance using Precision, Recall, mAP@0.5, and confusion matrices.
+
+Requirements
+
+Bash
 pip install ultralytics torch
